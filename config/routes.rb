@@ -1,5 +1,5 @@
 WeightablePractice::Application.routes.draw do
-  resources :friendships
+  resources :friendships, except:[:show, :index, :edit, :update]
 
   resources :weighins
 

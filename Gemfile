@@ -10,6 +10,8 @@ gem 'better_errors'
 
 gem "devise"
 
+gem 'haml'
+
 gem 'binding_of_caller'
 
 # Use SCSS for stylesheets
